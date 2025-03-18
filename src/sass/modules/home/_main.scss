@@ -9,19 +9,19 @@
 .bt>a:first-child{
     text-decoration: none;
     color: white;
-    background-color:#e87532;
+    background-color:$orang;
     padding: 10px;
     border-radius: 40px;
     text-align: center;
     padding-inline: 5vh;
 }
 .bt>a:first-child:hover{
-background-color: #eb8951;
+background-color: $hove;
 }
 .bt>a:last-child{
 text-decoration: none;
-color: #e87532;
-border: #e87532 solid 1px;
+color: $orang;
+border: $orang solid 1px;
 padding: 10px;
 border-radius: 40px;
 padding-inline: 5vh;
@@ -29,7 +29,7 @@ text-align: center;
 
 }
 .bt>a:last-child:hover{
-    background-color: #e87532;
+    background-color: $orang;
     color: white;
 }
 
@@ -62,16 +62,16 @@ text-align: center;
     border-radius: 20px;
 }
 .color{
-    color: #825139;
+    color: $mar;
     margin: 0;
     
 }
 span{
-    color: #e87532;
+    color:$orang;
 }
 .wit{
     width: 25vh;
-    color: #eb8951;
+    color: $hove;
 }
 .progress{
     width: 100%;
@@ -79,17 +79,17 @@ span{
     border: none;
 }
 .prog{
-    background: #e87532;
+    background:$orang;
     height: 100%;
     width: 90%;
 }
 .pg1{
-    background: #e87532;
+    background: $orang;
     height: 100%;
     width: 80%;
 }
 .pr2{
-    background: #e87532;
+    background: $orang;
     height: 100%;
     width: 55%;
 }
@@ -140,16 +140,16 @@ span{
 }
 .btt>a{
     text-decoration: none;
-color: #e87532;
+color: $orang;
 
-border: #e87532 solid 1px;
+border: $orang solid 1px;
 padding: 10px;
 border-radius: 40px;
 padding-inline: 5vh;
 text-align: center;
 }
 .btt>a:hover{
-    background-color: #e87532;
+    background-color: $orang;
     color: white;
 }
 .hover:hover{
@@ -158,7 +158,7 @@ text-align: center;
     transition: 1s;
 }
 .hover>div>h5:hover{
-    color: #e87532 !important;
+    color: $orang !important;
 }
 
 // tajriba
@@ -168,17 +168,17 @@ text-align: center;
     border: none;
 }
 .prog{
-    background: #e87532;
+    background: $orang;
     height: 100%;
     width: 90%;
 }
 .pg1{
-    background: #e87532;
+    background: $orang;
     height: 100%;
     width: 80%;
 }
 .pr2{
-    background: #e87532;
+    background: $orang;
     
     height: 100%;
     width: 55%;
@@ -187,7 +187,7 @@ text-align: center;
 .btto{
     text-decoration: none;
     color: white;
-    background-color:#e87532;
+    background-color:$orang;
     padding: 10px;
     border-radius: 40px;
     text-align: center;
@@ -195,7 +195,7 @@ text-align: center;
 }
 
 .btto:hover{
-    background-color: #eb8951;
+    background-color: $hove;
 }
 .posi{
     top: 5vh;

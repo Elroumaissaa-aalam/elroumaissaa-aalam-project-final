@@ -1,0 +1,15 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+$orang: #e87532;
+$mar: #825139;
+$hove:#eb8951;
+
+$custom-colors: (
+"orang": $orang,
+"mar": $mar,
+"hove": $hove,
+);
+
+
+$theme-colors: map-merge($custom-colors , $theme-colors)

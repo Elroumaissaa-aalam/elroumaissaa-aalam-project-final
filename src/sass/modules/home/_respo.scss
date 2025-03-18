@@ -3,7 +3,7 @@
 
 @media (max-width: 428px) {
     *{
-        margin: 0 ;
+        margin: 0  ;
         padding: 0 ;
     }
     header{
@@ -13,11 +13,12 @@
         
     }
     .po{
-
+margin: 0 !important;
         position: relative;
         left: 24vh;
     }
   nav{
+    margin: 0 !important;
     position: absolute;
     position: fixed;
     flex-direction: column;
@@ -33,6 +34,7 @@
     }
 }
 .nave{
+    margin: 0 !important;
     gap: 10px;
     box-shadow: 1px 0.5px 5px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -40,10 +42,9 @@
     width: 50vh;
     text-align: start;
     background-color: white;
-}
 
-#checkbox:checked  +nav{
-right: 0;
+
+
 
 }
 
@@ -51,7 +52,8 @@ label{
     display: block !important;
 }
 .flex{
-    margin: 0;
+    
+    margin: 0 !important;
     padding: 0;
     flex-direction: column;
 }
@@ -100,8 +102,9 @@ img{
 .bg{
     
     padding: 0 !important;
+    margin: 0 ;
     
-    width: 100vw;
+    width: 100%;
     .im{
         display: none;
     }
@@ -118,7 +121,8 @@ img{
     height: 10vh;
 }
 .flex{
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
 }
 .with{
     width: 90% !important;
@@ -127,10 +131,11 @@ img{
 
 
 .with2{
+    display: none;
 
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    text-align: center;
+    // display: grid;
+    // grid-template-columns: repeat(4,1fr);
+    // text-align: center;
     
 }
 
@@ -142,5 +147,7 @@ padding: 0;
 
 
 }
+
+
 
 }
