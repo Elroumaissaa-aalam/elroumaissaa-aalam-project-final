@@ -12397,6 +12397,24 @@ span {
   border-radius: 20px;
 }
 
+.fle {
+  display: flex;
+  align-items: center;
+  padding: 5vh;
+  padding-inline: 15vh;
+}
+
+.colom2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.fle2 {
+  display: flex;
+  gap: 2vh;
+}
+
 @media (max-width: 428px) {
   * {
     margin: 0;
