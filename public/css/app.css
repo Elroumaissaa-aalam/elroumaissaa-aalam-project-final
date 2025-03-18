@@ -12402,6 +12402,7 @@ span {
   align-items: center;
   padding: 5vh;
   padding-inline: 15vh;
+  gap: 10vh;
 }
 
 .colom2 {
@@ -12413,6 +12414,19 @@ span {
 .fle2 {
   display: flex;
   gap: 2vh;
+}
+
+.inp > input, textarea {
+  border-radius: 1vh;
+  border: 1px solid;
+}
+
+.inp > input:hover, textarea:hover {
+  border: 1px solid #e87532;
+}
+
+.inp > input:focus, textarea:focus {
+  outline: #e87532;
 }
 
 @media (max-width: 428px) {
@@ -12524,6 +12538,9 @@ span {
   }
   .with {
     width: 90% !important;
+  }
+  .pade-in {
+    padding-inline: 2vh !important;
   }
   .with2 {
     display: none;

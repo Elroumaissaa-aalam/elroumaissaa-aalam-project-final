@@ -219,6 +219,7 @@ text-align: center;
     align-items: center;
     padding: 5vh;
     padding-inline: 15vh;
+    gap: 10vh;
 }
 .colom2{
     display: flex;
@@ -229,4 +230,14 @@ text-align: center;
 .fle2{
     display: flex;
     gap: 2vh;
+}
+.inp>input , textarea{
+    border-radius: 1vh;
+    border: 1px solid;
+}
+.inp>input:hover , textarea:hover{
+ border: 1px solid $orang ;
+}
+.inp>input:focus , textarea:focus{
+ outline: $orang;
 }
