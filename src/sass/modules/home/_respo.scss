@@ -1,0 +1,146 @@
+
+
+
+@media (max-width: 428px) {
+    *{
+        margin: 0 ;
+        padding: 0 ;
+    }
+    header{
+        margin: 0 !important;
+        width: 90% !important;
+        left: 35vh !important;
+        
+    }
+    .po{
+
+        position: relative;
+        left: 24vh;
+    }
+  nav{
+    position: absolute;
+    position: fixed;
+    flex-direction: column;
+    top:10;
+      
+    padding: 20vh;
+    width: 100%;
+    height: 70%;
+    right: -600%;
+    a{
+        width: 100%;
+        padding: 2vh;
+    }
+}
+.nave{
+    gap: 10px;
+    box-shadow: 1px 0.5px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+   flex-direction: column;
+    width: 50vh;
+    text-align: start;
+    background-color: white;
+}
+
+#checkbox:checked  +nav{
+right: 0;
+
+}
+
+label{
+    display: block !important;
+}
+.flex{
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+.pad{
+    padding-top: 20vh;
+}
+.center>h1 , .center>p{
+    text-align: center;
+    width: 92% !important;
+  
+
+}
+.bt{
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.wih{
+width: 90% !important;
+}
+.bt>a {
+    width: 90% ;
+}
+.colom{
+    flex-direction: column;
+    text-align: center;
+    
+}
+.flex{
+    display: flex;
+    flex-direction: column ;
+    
+}
+img{
+    width: 90% !important;
+}
+.paddin{
+    padding: 2vh !important;
+}
+.image{
+    width: 30% !important;
+   
+}
+.bg{
+    
+    padding: 0 !important;
+    
+    width: 100vw;
+    .im{
+        display: none;
+    }
+    button{
+        display: none;
+    }
+
+}
+.bab{
+ padding: 2vh !important;
+   }
+.small{
+    width: 15vw !important;
+    height: 10vh;
+}
+.flex{
+    flex-direction: column;
+}
+.with{
+    width: 90% !important;
+}
+
+
+
+.with2{
+
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    
+}
+
+
+.with2>a{
+width: 90%;
+padding: 0;
+
+
+
+}
+
+}
