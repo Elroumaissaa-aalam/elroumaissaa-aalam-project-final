@@ -47,6 +47,9 @@ margin: 0 !important;
 
 
 }
+#checkbox:checked +nav {
+    right:0;
+}
 
 label{
     display: block !important;
